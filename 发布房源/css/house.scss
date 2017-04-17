@@ -1,0 +1,563 @@
+@import 'css.css';
+.icons {
+    font-family: 'iconfont';
+}
+.br{
+    border: none;
+    outline: none;
+}
+.br1{
+    .icons{
+        color: red;
+        float: left;
+        display: none;
+    }
+    .icons1 {
+        color: #69b338;
+        float: left;
+        font-family: 'iconfont';
+        display: none;
+    }
+}
+.br2{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.top{
+    width: 100%;
+    height: 67px;
+    border-bottom: 1px solid #cbcaca;
+    box-shadow: 1px 1px 2px 2px #dcdbdb;
+    .center{
+        width: 1200px;
+        height: 67px;
+        margin: 0 auto;
+        .logo {
+            width: 112px;
+            height: 48px;
+            background: url(../images/logo.png)no-repeat;
+            margin-top: 10px;
+            float: left;
+        }
+        .sec{
+            width: 45px;
+            height: 68px;
+            margin-left: 25px;
+            float: left;
+            cursor: pointer;
+            position: relative;
+            .nj{
+                float: left;
+                margin-top: 25px;
+            }
+            .icons {
+                color: #ec6c00;
+                float:right;
+                margin-top: 30px;
+            }
+            .city{
+                width: 130px;
+                height: 50px;
+                background: #fff;
+                border: 1px solid #cbcaca;
+                line-height: 25px;
+                position: absolute;
+                top:50px;
+                left: 0;
+                display: none;
+                a{
+                    margin: 5px;
+                }
+            }
+        }
+       .nav{
+            margin-left: 250px;
+            line-height: 68px;
+             li{
+                float: left;
+                margin-right: 50px;
+                font-size: 16px;
+            }  
+        }
+        .right{
+            width: 230px;
+            height: 18px;
+            float: right;
+            margin-top: 28px;
+            .user-login{
+                width: 67px;
+                height: 18px;
+                border-right: 1px solid #d2d2d2;
+                float: left;
+            }
+            .apm-login{
+                width: 67px;
+                height: 18px;
+                border-right: 1px solid #d2d2d2;
+                float: left;
+                margin-left: 12px;
+            }
+            .phone{
+                width: 70px;
+                height: 18px;
+                float: right;
+                .icons{
+                    font-family: 'iconfont';
+                    color: #ef9549;
+                }
+            }
+        }
+    }
+}
+.contact{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    .position {
+        width: 290px;
+        height: 18px;
+        color: #666666;
+        padding-top:15px;
+    }
+    .left{
+        width: 256px;
+        height: 378px;
+        border: 1px solid #d2d2d2;
+        border-bottom: none;
+        margin-top: 22px;
+        float: left;
+        .account{
+            width: 256px;
+            height: 145px;
+            border-bottom:1px solid #d2d2d2;
+            .con{
+                width: 256px;
+                height: 110px;
+            } 
+        }
+        .collection{
+            width: 256px;
+            height: 113px;
+            border-bottom:1px solid #d2d2d2;
+            .con{
+                width: 256px;
+                height: 78px;
+            } 
+        }
+        .release{
+            width: 256px;
+            height: 117px;
+            border-bottom:1px solid #d2d2d2;
+            .con{
+                width: 256px;
+                height: 82px;
+            } 
+        }
+        .title{
+                width: 228px;
+                height: 34px;
+                border-bottom:1px solid #d2d2d2;
+                background: #f7f7f7;
+                line-height: 34px;
+                padding-left: 28px;
+                font-weight: bold;
+        }
+        .con1{
+                width: 72px;
+                height: 92px;
+                margin-left: 28px;
+                padding-top: 15px;
+                li{
+                    margin-bottom: 15px;
+            }
+        }
+    }
+    .right{
+        width: 780px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        margin-top: 22px;
+        .information{
+            width: 780px;
+            height: 36px;
+            background: url(../images/nav.png) no-repeat;
+            line-height: 36px;
+            .mess1{
+                margin-left: 90px;
+                color: #fff;
+            }
+            .mess2{
+                margin-left:212px;
+            }
+            .mess3{
+                margin-left:208px;
+            }
+        }
+        .vname{
+            width: 540px;
+            height: 32px;
+            margin-top: 34px;
+            margin-left: 80px;
+            line-height: 32px;
+            .name {
+                color: #333;
+                float: left;
+            }
+            .vname-box{
+                width: 418px;
+                height: 30px;
+                border: 1px solid #d9d9d9;
+                @extend .br2;
+                float: left;
+                margin-left: 10px;
+                line-height: 30px;
+                position: relative;
+                .inp{
+                    height: 20px;
+                    font-size: 13px;
+                    color: 999999;
+                    @extend .br;
+                }
+                .think{
+                    width: 418px;
+                    height:100px;
+                    border: 1px solid #d9d9d9;
+                    @extend .br2; 
+                    background: #f2f2f2;
+                    display: none;
+                    position: absolute;
+                    left:0;
+                    top: 30px;
+                }
+            }
+            @extend .br1;
+        }
+        
+        .ast{
+            color: #ff0000;
+            float: left;
+        }
+        .area{
+            width: 540px;
+            height: 32px;
+            margin-left: 80px;
+            margin-top: 28px;
+            line-height: 32px;
+            .module{
+                color: #333;
+                float: left;
+            }
+            #ae{
+                width: 200px;
+                height: 32px;
+                border: 1px solid #d9d9d9;
+                @extend .br2;
+                float: left;
+                margin-left: 10px;
+                color: #666666;
+            }
+            #md{
+                @extend #ae;
+                margin-left: 18px;
+            }
+           @extend .br1;
+        }
+        .model{
+            width: 515px;
+            height: 32px;
+            margin-left: 106px;
+            margin-top: 28px;
+            line-height: 32px;
+            .dmodel{
+                color: #333;
+                float: left;
+                margin-right: 4px;
+            }
+            .room{
+                width: 74px;
+                height: 30px;
+                float: left;
+                border:1px solid #d9d9d9;
+                @extend .br2;
+                margin-left: 5px;
+                margin-right: 5px;
+                line-height: 30px;
+                .rinp{
+                    width: 74px;
+                    height: 20px;
+                    @extend .br;
+                }
+            }
+            .room1{
+                @extend .room;
+                .rinp1{
+                    @extend .rinp;  
+                }
+            }
+             .room2{
+                @extend .room;
+                .rinp2{
+                    @extend .rinp;  
+                }
+            }
+             .room3{
+                @extend .room;
+                 .rinp3{
+                    @extend .rinp;  
+                }
+            }
+            .rm{
+                font-size: 16px;
+                float: left;
+                color: #666666;
+            }
+            @extend .br1;
+        }
+        .style{
+            width: 540px;
+            height: 32px;
+            margin-top: 28px;
+            margin-left: 80px;
+            line-height: 32px;
+            .rent{
+                color: #333;
+                float: left;
+            }
+            .whole{
+                margin-left: 10px;
+                margin-top: 10px;
+                float: left;
+            }
+            .roommates{
+                float: left;
+                margin-top: 10px;
+                margin-left: 60px;
+            }
+            .text {
+                display: block;
+                float: left;
+                color: #666666;
+                font-size: 13px;
+                margin-left: 5px;
+            }
+            #choose{
+                width: 118px;
+                height: 30px;
+                @extend .br2;
+                color: #999999;
+                font-size: 13px;
+                float: left;
+                margin-left: 10px;
+                border:1px solid #d9d9d9;
+            }
+            #choose1{
+                @extend #choose;
+                margin-left: 18px;
+            }
+            @extend .br1;
+        }
+        .harea{
+            width: 515px;
+            height: 32px;
+            margin-left: 106px;
+            margin-top: 28px;
+            line-height: 32px;
+            .ha{
+                color: #333;
+                float: left;
+            }
+            .hbox{
+                width: 420px;
+                height: 30px;
+                border:1px solid #d9d9d9;
+                @extend .br2;
+                float: left;
+                margin-left: 10px;
+                line-height: 30px;
+                .hinp{
+                    float: left;
+                    height: 20px;
+                    margin-top: 5px;
+                    @extend .br;
+                }
+                .square{
+                    float: right;
+                    font-size: 16px;
+                    color: #666666;
+                }
+            }
+            @extend .br1;
+        }
+        .rmoney{
+            width: 515px;
+            height: 32px;
+            margin-left: 106px;
+            margin-top: 28px;
+            line-height: 32px;
+            .rmy{
+                color: #333;
+                float: left;
+            }
+            .mbox{
+                width: 420px;
+                height: 30px;
+                border:1px solid #d9d9d9;
+                @extend .br2;
+                float: left;
+                margin-left: 10px;
+                line-height: 30px;
+                .minp{
+                    float: left;
+                    height: 20px;
+                    margin-top: 5px;
+                    @extend .br;
+                }
+                .month{
+                    float: right;
+                    font-size: 16px;
+                    color: #666666;
+                }
+            }
+           @extend .br1;
+        }
+        .payment{
+            width: 545px;
+            height: 32px;
+            margin-top: 32px;
+            margin-left: 80px;
+            line-height: 32px;
+            .pstyle{
+                color: #333;
+                float: left; 
+            }
+            .checkbox{
+                width: 15px;
+                height: 15px;
+                float: left;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+            .paystyle{
+                font-size: 16px;
+                color: #666666;
+                margin-left: 5px;
+                float: left;
+            }
+            .checkbox1,.checkbox2,.checkbox3,.checkbox4 {
+                @extend .checkbox;
+                margin-left: 25px;
+            }
+            @extend .br1;
+        }
+        .phone {
+            width: 540px;
+            height: 32px;
+            margin-left: 80px;
+            margin-top: 28px;
+            line-height: 32px;
+            .mobile{
+                color: #333;
+                float: left;
+            }
+            .pbox{
+                width: 200px;
+                height: 30px;
+                border:1px solid #d9d9d9;
+                @extend .br2;
+                float: left;
+                margin-left: 10px;
+                .pinp{
+                    @extend .br;
+                }
+            }
+            @extend .br1;
+        }
+        #textarea{
+            margin-left: 160px;
+            margin-top: 20px;
+        }
+        .submit{
+            width: 140px;
+            height: 40px;
+           @extend .br2;
+            background: #ec6c00;
+            color: #fff;
+            font-size: 16px;
+            display: block;
+            margin-left: 162px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+.bottom{
+    width: 100%;
+    height: 118px;
+    background: #333333;
+    color: #999999;
+    overflow: hidden;
+    .middle{
+        width: 1200px;
+        height: 118px;
+        margin: 0 auto;
+        .left{
+            width: 445px;
+            height: 65px;
+            margin-top: 28px;
+            float: left;
+            .top1{
+                width: 505px;
+                height: 16px;
+                .nav{
+                    float: left;
+                    li{
+                        float: left;
+                        border-right: 1px solid #999999;
+                        padding-right: 4px;
+                        padding-left: 4px;
+                    }
+                    .a{
+                        padding-left: 0;
+                    }
+                    .a1{
+                        padding-right: 0;
+                        border-right:none;
+                    }
+                }
+                .url{
+                    float: right;
+                }
+            }
+            .center1{
+                margin-top: 10px;
+            }
+            .bom{
+                margin-top: 10px;
+                .emblem{
+                    width: 15px;
+                    height: 18px;
+                    background: url(../images/logo.png)no-repeat;
+                    background-position: (-296px 0);
+                    float: left;
+                }
+                .record{
+                    float: left;
+                    margin-left: 4px;
+                }
+            }
+        }
+        .right{
+            width: 118px;
+            height: 60px;
+            background: url(../images/logo.png)no-repeat;
+            background-position: (-326px 0);
+            margin-top: 28px;
+            float: right;
+        }
+    }
+}
