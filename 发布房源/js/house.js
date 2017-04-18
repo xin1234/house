@@ -32,6 +32,7 @@ $(function(){
          var e = $(".rinp1").val();
          var f = $(".rinp2").val();
          var g = $(".rinp3").val();
+         
          var h = $("input:radio:checked").val();
          var i = $("#choose").find('option:selected').val();
          var j = $("#choose1").find('option:selected').val();
@@ -42,7 +43,7 @@ $(function(){
          $("input[name=ng]:checked").each(function(key,value){
             arr[key]=$(value).val();
          })
-         var val = a+b+c+d+e+f+g+h+i+j+k+l+m+arr;
+         var val = a+b+c+d+e+f+g+h+i+j+k+l+arr+m;
 		 $("#textarea").text(val);
 	 })
     
@@ -102,7 +103,7 @@ $(function(){
      })
     
     //不能为空切大于0
-    var zz3 = /^\+?[1-9][0-9]*$/;
+    var zz3 = /^(([1-9][0-9]*)|(([0]\.\d{1,2}|[1-9][0-9]*\.\d{1,2})))$/;
     $(".hinp").on("blur",function(){
         var hinp = $(".hinp").val();
         if(hinp == '' || !zz3.test(hinp)){
@@ -134,6 +135,70 @@ $(function(){
             $(this).siblings().removeAttr('disabled','disabled');
         }
     })
+    $("input[name=ng]").change(function(){
+        if($("input[name=ng]").is(':checked')){
+            $(".payment .icons").hide();
+            $(".payment .icons1").show();
+        }else{
+            $(".payment .icons").show();
+            $(".payment .icons1").hide();
+        }
+    })
+   
+    
+    //模糊查询
+    var data= ['弓箭坊','弓箭坊小区','弓箭坊高层住宅小区','中华路幼儿园（弓箭坊）','弓箭坊-道路'];
+//input框的事件
+    $(".inp").on('input',function(){
+        //获取input框的值
+        var keyword = $(this).val();
+        //有值的时候去查找数据
+        if(keyword){
+            var str;
+            var arr = [];
+            for(var i=0;i<data.length;i++){
+                var objStr = data[i];
+                //js原生的indexOf方法返回的都是指定的子串在另一个字符串中的位置，如果没有找不到子串，则返回 -1
+                var str = objStr.indexOf(keyword);
+                if(str>=0){
+                    $(".think").show();
+                    arr[i] = '<div class=think1'+i+'>'+objStr+'</div>';
+                }
+                //给动态添加的数据绑定 鼠标移入事件 给它添加背景色
+                $(".think").on('mouseover','.think1'+i,function(){
+                    $(this).css({'background-color':'#f2f2f2'});
+                });
+                //给动态添加的数据绑定 鼠标点击事件 让它写入到class为inp的input框里
+                $(".think").on("click",'.think1'+i,function(){
+                    var text = $(this).text();
+                    $(".inp").val(text);
+                    $(".think").hide();
+                });
+                //给动态添加的数据绑定 鼠标移出事件 取消它的背景色
+                $(".think").on('mouseout','.think1'+i,function(){
+                    $(this).css({'background-color':'#fff'});
+                });
+                
+                $("body").on("click",function(){
+                    $(".think").html("").hide();
+                })
+            }
+            $(".think").html(arr);
+        }
+    });
     
     
+    //模拟图片上传
+    $(".file").on("click",function(){
+        var file = $(".file-input").val();
+        $("img").attr("src",'images/logo1.png');
+        $(".image").show();
+        $(".file").hide();
+    })
+    
+    $(".c").on("click",function(){
+        $(".image").hide();
+        $(".file").show();
+    })
+
 });
