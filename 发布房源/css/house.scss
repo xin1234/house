@@ -2,12 +2,14 @@
 .icons {
     font-family: 'iconfont';
 }
-.br{
+
+.br {
     border: none;
     outline: none;
 }
-.br1{
-    .icons{
+
+.br1 {
+    .icons {
         color: red;
         float: left;
         display: none;
@@ -19,19 +21,21 @@
         display: none;
     }
 }
-.br2{
+
+.br2 {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     border-radius: 4px;
 }
-.top{
+
+.top {
     width: 100%;
     height: 67px;
     border-bottom: 1px solid #cbcaca;
     box-shadow: 1px 1px 2px 2px #dcdbdb;
-    .center{
+    .center {
         width: 1200px;
         height: 67px;
         margin: 0 auto;
@@ -42,69 +46,69 @@
             margin-top: 10px;
             float: left;
         }
-        .sec{
+        .sec {
             width: 45px;
             height: 68px;
             margin-left: 25px;
             float: left;
             cursor: pointer;
             position: relative;
-            .nj{
+            .nj {
                 float: left;
                 margin-top: 25px;
             }
             .icons {
                 color: #ec6c00;
-                float:right;
+                float: right;
                 margin-top: 30px;
             }
-            .city{
+            .city {
                 width: 130px;
                 height: 50px;
                 background: #fff;
                 border: 1px solid #cbcaca;
                 line-height: 25px;
                 position: absolute;
-                top:50px;
+                top: 50px;
                 left: 0;
                 display: none;
-                a{
+                a {
                     margin: 5px;
                 }
             }
         }
-       .nav{
+        .nav {
             margin-left: 250px;
             line-height: 68px;
-             li{
+            li {
                 float: left;
                 margin-right: 50px;
                 font-size: 16px;
-            }  
+            }
         }
-        .right{
+        .right {
             width: 230px;
             height: 18px;
             float: right;
             margin-top: 28px;
-            .user-login{
+            .user-login {
                 width: 67px;
                 height: 18px;
                 border-right: 1px solid #d2d2d2;
                 float: left;
             }
-            .apm-login{
+            .apm-login {
                 width: 67px;
                 height: 18px;
                 border-right: 1px solid #d2d2d2;
                 float: left;
                 margin-left: 12px;
             }
-            .phone{
+            .phone {
                 width: 70px;
                 height: 18px;
                 float: right;
-                .icons{
+                .icons {
                     font-family: 'iconfont';
                     color: #ef9549;
                 }
@@ -112,7 +116,8 @@
         }
     }
 }
-.contact{
+
+.contact {
     width: 1200px;
     height: auto;
     margin: 0 auto;
@@ -121,84 +126,84 @@
         width: 290px;
         height: 18px;
         color: #666666;
-        padding-top:15px;
+        padding-top: 15px;
     }
-    .left{
+    .left {
         width: 256px;
         height: 378px;
         border: 1px solid #d2d2d2;
         border-bottom: none;
         margin-top: 22px;
         float: left;
-        .account{
+        .account {
             width: 256px;
             height: 145px;
-            border-bottom:1px solid #d2d2d2;
-            .con{
+            border-bottom: 1px solid #d2d2d2;
+            .con {
                 width: 256px;
                 height: 110px;
-            } 
+            }
         }
-        .collection{
+        .collection {
             width: 256px;
             height: 113px;
-            border-bottom:1px solid #d2d2d2;
-            .con{
+            border-bottom: 1px solid #d2d2d2;
+            .con {
                 width: 256px;
                 height: 78px;
-            } 
+            }
         }
-        .release{
+        .release {
             width: 256px;
             height: 117px;
-            border-bottom:1px solid #d2d2d2;
-            .con{
+            border-bottom: 1px solid #d2d2d2;
+            .con {
                 width: 256px;
                 height: 82px;
-            } 
+            }
         }
-        .title{
-                width: 228px;
-                height: 34px;
-                border-bottom:1px solid #d2d2d2;
-                background: #f7f7f7;
-                line-height: 34px;
-                padding-left: 28px;
-                font-weight: bold;
+        .title {
+            width: 228px;
+            height: 34px;
+            border-bottom: 1px solid #d2d2d2;
+            background: #f7f7f7;
+            line-height: 34px;
+            padding-left: 28px;
+            font-weight: bold;
         }
-        .con1{
-                width: 72px;
-                height: 92px;
-                margin-left: 28px;
-                padding-top: 15px;
-                li{
-                    margin-bottom: 15px;
+        .con1 {
+            width: 72px;
+            height: 92px;
+            margin-left: 28px;
+            padding-top: 15px;
+            li {
+                margin-bottom: 15px;
             }
         }
     }
-    .right{
+    .right {
         width: 780px;
         height: auto;
         float: left;
         margin-left: 20px;
         margin-top: 22px;
-        .information{
+        .information {
             width: 780px;
             height: 36px;
             background: url(../images/nav.png) no-repeat;
             line-height: 36px;
-            .mess1{
+            .mess1 {
                 margin-left: 90px;
                 color: #fff;
             }
-            .mess2{
-                margin-left:212px;
+            .mess2 {
+                margin-left: 212px;
             }
-            .mess3{
-                margin-left:208px;
+            .mess3 {
+                margin-left: 208px;
             }
         }
-        .vname{
+        .vname {
             width: 540px;
             height: 32px;
             margin-top: 34px;
@@ -208,7 +213,7 @@
                 color: #333;
                 float: left;
             }
-            .vname-box{
+            .vname-box {
                 width: 418px;
                 height: 30px;
                 border: 1px solid #d9d9d9;
@@ -217,42 +222,41 @@
                 margin-left: 10px;
                 line-height: 30px;
                 position: relative;
-                .inp{
+                .inp {
                     height: 20px;
                     font-size: 13px;
                     color: 999999;
                     @extend .br;
                 }
-                .think{
+                .think {
                     width: 418px;
-                    height:auto;
+                    height: auto;
                     border: 1px solid #d9d9d9;
-                    @extend .br2; 
+                    @extend .br2;
                     background: #fff;
                     display: none;
                     position: absolute;
-                    left:0;
+                    left: 0;
                     top: 30px;
                 }
             }
             @extend .br1;
         }
-        
-        .ast{
+        .ast {
             color: #ff0000;
             float: left;
         }
-        .area{
+        .area {
             width: 540px;
             height: 32px;
             margin-left: 80px;
             margin-top: 28px;
             line-height: 32px;
-            .module{
+            .module {
                 color: #333;
                 float: left;
             }
-            #ae{
+            #ae {
                 width: 200px;
                 height: 32px;
                 border: 1px solid #d9d9d9;
@@ -261,79 +265,79 @@
                 margin-left: 10px;
                 color: #666666;
             }
-            #md{
+            #md {
                 @extend #ae;
                 margin-left: 18px;
             }
-           @extend .br1;
+            @extend .br1;
         }
-        .model{
+        .model {
             width: 515px;
             height: 32px;
             margin-left: 106px;
             margin-top: 28px;
             line-height: 32px;
-            .dmodel{
+            .dmodel {
                 color: #333;
                 float: left;
                 margin-right: 4px;
             }
-            .room{
+            .room {
                 width: 74px;
                 height: 30px;
                 float: left;
-                border:1px solid #d9d9d9;
+                border: 1px solid #d9d9d9;
                 @extend .br2;
                 margin-left: 5px;
                 margin-right: 5px;
                 line-height: 30px;
-                .rinp{
+                .rinp {
                     width: 74px;
                     height: 20px;
                     @extend .br;
                 }
             }
-            .room1{
+            .room1 {
                 @extend .room;
-                .rinp1{
-                    @extend .rinp;  
+                .rinp1 {
+                    @extend .rinp;
                 }
             }
-             .room2{
+            .room2 {
                 @extend .room;
-                .rinp2{
-                    @extend .rinp;  
+                .rinp2 {
+                    @extend .rinp;
                 }
             }
-             .room3{
+            .room3 {
                 @extend .room;
-                 .rinp3{
-                    @extend .rinp;  
+                .rinp3 {
+                    @extend .rinp;
                 }
             }
-            .rm{
+            .rm {
                 font-size: 16px;
                 float: left;
                 color: #666666;
             }
             @extend .br1;
         }
-        .style{
+        .style {
             width: 540px;
             height: 32px;
             margin-top: 28px;
             margin-left: 80px;
             line-height: 32px;
-            .rent{
+            .rent {
                 color: #333;
                 float: left;
             }
-            .whole{
+            .whole {
                 margin-left: 10px;
                 margin-top: 10px;
                 float: left;
             }
-            .roommates{
+            .roommates {
                 float: left;
                 margin-top: 10px;
                 margin-left: 60px;
@@ -345,7 +349,7 @@
                 font-size: 13px;
                 margin-left: 5px;
             }
-            #choose{
+            #choose {
                 width: 118px;
                 height: 30px;
                 @extend .br2;
@@ -353,39 +357,39 @@
                 font-size: 13px;
                 float: left;
                 margin-left: 10px;
-                border:1px solid #d9d9d9;
+                border: 1px solid #d9d9d9;
             }
-            #choose1{
+            #choose1 {
                 @extend #choose;
                 margin-left: 18px;
             }
             @extend .br1;
         }
-        .harea{
+        .harea {
             width: 515px;
             height: 32px;
             margin-left: 106px;
             margin-top: 28px;
             line-height: 32px;
-            .ha{
+            .ha {
                 color: #333;
                 float: left;
             }
-            .hbox{
+            .hbox {
                 width: 420px;
                 height: 30px;
-                border:1px solid #d9d9d9;
+                border: 1px solid #d9d9d9;
                 @extend .br2;
                 float: left;
                 margin-left: 10px;
                 line-height: 30px;
-                .hinp{
+                .hinp {
                     float: left;
                     height: 20px;
                     margin-top: 5px;
                     @extend .br;
                 }
-                .square{
+                .square {
                     float: right;
                     font-size: 16px;
                     color: #666666;
@@ -393,78 +397,81 @@
             }
             @extend .br1;
         }
-        .rmoney{
+        .rmoney {
             width: 515px;
             height: 32px;
             margin-left: 106px;
             margin-top: 28px;
             line-height: 32px;
-            .rmy{
+            .rmy {
                 color: #333;
                 float: left;
             }
-            .mbox{
+            .mbox {
                 width: 420px;
                 height: 30px;
-                border:1px solid #d9d9d9;
+                border: 1px solid #d9d9d9;
                 @extend .br2;
                 float: left;
                 margin-left: 10px;
                 line-height: 30px;
-                .minp{
+                .minp {
                     float: left;
                     height: 20px;
                     margin-top: 5px;
                     @extend .br;
                 }
-                .month{
+                .month {
                     float: right;
                     font-size: 16px;
                     color: #666666;
                 }
             }
-           @extend .br1;
+            @extend .br1;
         }
-        .payment{
+        .payment {
             width: 545px;
             height: 32px;
             margin-top: 32px;
             margin-left: 80px;
             line-height: 32px;
-            .pstyle{
+            .pstyle {
                 color: #333;
-                float: left; 
+                float: left;
             }
-            .checkbox{
+            .checkbox {
                 width: 15px;
                 height: 15px;
                 float: left;
                 margin-left: 10px;
                 margin-top: 10px;
             }
-            .paystyle{
+            .paystyle {
                 font-size: 16px;
                 color: #666666;
                 margin-left: 5px;
                 float: left;
             }
-            .checkbox1,.checkbox2,.checkbox3,.checkbox4 {
+            .checkbox1,
+            .checkbox2,
+            .checkbox3,
+            .checkbox4 {
                 @extend .checkbox;
                 margin-left: 25px;
             }
             @extend .br1;
             @extend .br2;
         }
-        .fabu{
+        .fabu {
             width: 545px;
             height: 100px;
             margin-left: 80px;
             margin-top: 32px;
-            .ff{
+            .ff {
                 color: #333;
-                float: left;  
+                float: left;
             }
-             .file{
+            .file {
                 width: 100px;
                 height: 80px;
                 position: relative;
@@ -475,27 +482,27 @@
                 color: #fff;
                 float: left;
                 margin-left: 20px;
-                .file-input{
-                    position:absolute;
+                .file-input {
+                    position: absolute;
                     left: 0;
                     top: 0;
                     opacity: 0;
                 }
             }
-            .image{
+            .image {
                 width: 100px;
                 height: 100px;
                 position: relative;
                 margin-left: 125px;
                 display: none;
-                img{
+                img {
                     width: 100px;
                     height: 100px;
                     position: absolute;
                     left: 0;
                     top: 0;
                 }
-                .c{
+                .c {
                     width: 10px;
                     height: 10px;
                     text-align: center;
@@ -510,31 +517,30 @@
                 }
             }
         }
-       
         .phone {
             width: 540px;
             height: 32px;
             margin-left: 80px;
             margin-top: 10px;
             line-height: 32px;
-            .mobile{
+            .mobile {
                 color: #333;
                 float: left;
             }
-            .pbox{
+            .pbox {
                 width: 200px;
                 height: 30px;
-                border:1px solid #d9d9d9;
+                border: 1px solid #d9d9d9;
                 @extend .br2;
                 float: left;
                 margin-left: 10px;
-                .pinp{
+                .pinp {
                     @extend .br;
                 }
             }
             @extend .br1;
         }
-        .collect{
+        .collect {
             width: 545px;
             height: 100px;
             margin-left: 80px;
@@ -543,12 +549,14 @@
                 color: #333;
                 float: left;
             }
-            #textarea{
+            #textarea {
                 float: left;
                 margin-left: 10px;
+                font-size: 16px;
+                line-height: 20px;
             }
         }
-        .submit{
+        .submit {
             width: 140px;
             height: 40px;
             @extend .br2;
@@ -559,66 +567,75 @@
             margin-left: 162px;
             margin-top: 10px;
             margin-bottom: 10px;
+            float: left;
+        }
+        .sub {
+            color: red;
+            font-size: 16px;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
         }
     }
 }
-.bottom{
+
+.bottom {
     width: 100%;
     height: 118px;
     background: #333333;
     color: #999999;
     overflow: hidden;
-    .middle{
+    .middle {
         width: 1200px;
         height: 118px;
         margin: 0 auto;
-        .left{
+        .left {
             width: 445px;
             height: 65px;
             margin-top: 28px;
             float: left;
-            .top1{
+            .top1 {
                 width: 505px;
                 height: 16px;
-                .nav{
+                .nav {
                     float: left;
-                    li{
+                    li {
                         float: left;
                         border-right: 1px solid #999999;
                         padding-right: 4px;
                         padding-left: 4px;
                     }
-                    .a{
+                    .a {
                         padding-left: 0;
                     }
-                    .a1{
+                    .a1 {
                         padding-right: 0;
-                        border-right:none;
+                        border-right: none;
                     }
                 }
-                .url{
+                .url {
                     float: right;
                 }
             }
-            .center1{
+            .center1 {
                 margin-top: 10px;
             }
-            .bom{
+            .bom {
                 margin-top: 10px;
-                .emblem{
+                .emblem {
                     width: 15px;
                     height: 18px;
                     background: url(../images/logo.png)no-repeat;
                     background-position: (-296px 0);
                     float: left;
                 }
-                .record{
+                .record {
                     float: left;
                     margin-left: 4px;
                 }
             }
         }
-        .right{
+        .right {
             width: 118px;
             height: 60px;
             background: url(../images/logo.png)no-repeat;
